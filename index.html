@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +7,7 @@
     <meta name="keywords" content="frontend, html, css, java script, Berlin, Germany">
     <meta name="description" content="Frontend developer from Berlin">
     <link rel="stylesheet" href="styles.css">
-    <title>Frontend developer</title>
+    <title>Resume</title>
 </head>
 
 <body>
@@ -16,99 +16,111 @@
 
         <div class="info"> 
 
-        <img src="Mikhalchenko Mariia.jpg" alt="Мария Михальченко" class="avatar">
+        <img src="avatar.jpg" alt="Mariia Mikhalchenko" class="avatar">
         
             <div class="info-text">
 
-            <h1>Мария Михальченко</h1>
+            <h1>Mariia Mikhalchenko</h1>
 
-            <p>Начинающий фронтенд-разработчик из <strong>Берлина</strong>.</p>
+            <p>Aspiring and inspired front-end developer from Berlin.</p>
+            <p>I love to travel and embroider.</p>
 
-            <p>Я люблю <em>вышивать, путешествовать и петь</em>.</p>
+            <h4>Social networks</h4>
 
-            <h4>Список социальных сетей:</h4>
-
-            <a href="https://www.instagram.com/nekofanova_/" target="_blank">Instagram</a>
+            <img src="github.png" alt="GitHub" class="icon"><a href="https://github.com/marymih" target="_blank" class="link-list">GitHub</a>
         |
-            <a href="https://t.me/mary_mimimi" target="_blank">Telegram</a>
-            </div>    
+            <img src="telegram.png" alt="Telegram" class="icon"><a href="https://t.me/mary_mimimi" target="_blank" class="link-list">Telegram</a>
+
+            <h4>Languages</h4>
+            <p id="lang">Russian | English | French</p>
+            </div> 
+            
         </div>
 
-    <div class="card bg-green">
-        <h2>Мои хобби</h2>
+    <div class="card">
+        <h2>Skills</h2>
 
-        <ol class="list">
-            <li>Вышивка</li>
-            <li>Путешествия</li>
-            <li>Кино</li>
-            <li>Пение</li>
-        </ol>
+        
+
+
+        <ul class="list">
+            <li>
+                <label for="html">HTML</label>
+                <progress id="html" max="100" value="85"> 85% </progress>
+            </li>
+            <li>
+                <label for="css">CSS</label>
+                <progress id="css" max="100" value="70"> 70% </progress>
+            </li>
+            <li>
+                <label for="js">Java Script</label>
+                <progress id="js" max="100" value="25"> 25% </progress>
+            </li>
+        </ul>
     </div>
 
-    <div class="card bg-red">
-        <h2>Опыт работы</h2>
+    <div class="card">
+        <h2>Experience</h2>
 
         <table class="table">
-            <!-- <thead>
-                <tr>
-                    <th>Название</th>
-                    <th>Должность</th>
-                    <th>Год</th> 
-                </tr>
-            </thead> -->
+ 
             <tbody>
             <tr>
-                <td>Комус</td>
-                <td>Бизнес-аналитик</td>
+                <td>Komus</td>
+                <td>Business analyst</td>
                 <td>2020-2022</td>
             </tr>
             <tr>
-                <td>Комус</td>
-                <td>Менеджер интернет-витрины</td>
+                <td>Komus</td>
+                <td>Content manager</td>
                 <td>2017-2020</td>
             </tr>
             <tr>
-                <td>ФБУН ЦНИИ эпидемиологии Роспотребнадзора</td>
-                <td>Менеджер по стандартизации</td>
+                <td>FBUN Central Research Institute of Epidemiology of Rospotrebnadzor</td>
+                <td>Standartization manager</td>
                 <td>2015-2017</td>
             </tr>
             </tbody>
         </table>
     </div>
 
-    <div class="card bg-yellow">
-        <h2>Обучение</h2>
-        <ul class="link-list">
-            <li>
-            <a href="https://result.school/products/html-css">HTML&CSS - первый шаг для начинающих в IT</a> 
-            </li>
-        </ul>
+    <div class="card">
+        <h2>Education</h2>
+        <table class="table">
+ 
+            <tbody>
+            <tr>
+                <td>Result School</td>
+                <td>HTML&CSS</td>
+                <td>2022</td>
+            </tr>
+            </tbody>
+        </table>
+        
     </div>
-
-    
-
+ 
     <form class="form">
-        <h2>Связаться со мной</h2>
+        <h2>Contact me</h2>
 
         <div class="form-row">
 
             <div class="form-group">
-                <label for="name">Ваше имя:</label>
-                <input type="text" id="name" placeholder="Введите имя">
+                <label for="name">Your name:</label>
+                <input type="text" id="name" placeholder="Enter your name">
             </div>
 
             <div class="form-group">
-                <label for="email">Ваш email:</label>
-                <input type="email" id="email" placeholder="Введите email">
+                <label for="email">Your e-mail:</label>
+                <input type="email" id="email" placeholder="Enter your e-mail">
             </div>
         </div>
 
             <div class="form-group">
-                <label for="message">Ваше сообщение:</label>
-                <textarea id="message" cols="20" rows="5" placeholder="Введите сообщение"></textarea>
+                <label for="message">Your message:</label>
+                <textarea id="message" cols="20" rows="5" placeholder="Enter your message"></textarea>
             </div>
 
-            <button type="submit" class="btn">Отправить</button>
+            <button type="submit" class="btn">Send</button>
     </form>
 </div>
 </body>
